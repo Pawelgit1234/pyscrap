@@ -1,0 +1,11 @@
+EMAIL_REGEX = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+PHONE_NUMBER_REGEX = r'(\+?\d{1,3}[\s-]?)?(\(?\d{3}\)?[\s-]?)?\d{3}[\s-]?\d{4}'
+FULL_URL_REGEX = r'https?://[^\s]+|www\.[^\s]+'
+PARTIAL_URL_REGEX = r'\b[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?\b'
+IPV4_REGEX = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+IPV6_REGEX = r'\b(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}\b|\b(?:[0-9a-fA-F]{1,4}:){1,7}:|\b::(?:[0-9a-fA-F]{1,4}:){0,6}[0-9a-fA-F]{1,4}\b'
+DATE_REGEX = r'\b(?:\d{4}[-/]\d{2}[-/]\d{2}|\d{2}[-/]\d{2}[-/]\d{4})\b'
+
+DEFAULT_JSON_OUTPUT_FILE_NAME = 'data.json'
+DEFAULT_CSV_OUTPUT_FILE_NAME = 'data.csv'
+DEFAULT_OUTPUT_FILE_NAME = 'data.txt'
